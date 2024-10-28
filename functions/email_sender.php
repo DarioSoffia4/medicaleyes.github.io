@@ -41,7 +41,7 @@
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
 		'Content-Type: application/json')
 	);
-	curl_setopt($ch, CURLOPT_USERPWD, "c4eb73e026d4196d028de98120a24bbd:b15a942d1bb6985c06e8cb0306e9b2dc");
+	curl_setopt($ch, CURLOPT_USERPWD, "");
 	$server_output = curl_exec($ch);
 	echo $server_output;
 	curl_close ($ch);
