@@ -41,6 +41,7 @@
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
 		'Content-Type: application/json')
 	);
+		/*missing string*/
 	curl_setopt($ch, CURLOPT_USERPWD, "");
 	$server_output = curl_exec($ch);
 	echo $server_output;
